@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+body {}
+
+.background-img {
+    height: 600px;
+    width: 100%;
+
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav-items ul {
+    display: flex;
+    margin-left: 60%;
+}
+
+.nav-items li {
+    margin-top: 10px;
+    margin-left: 20px;
+    list-style-type: none;
+    font-weight: 100;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+}
+
+.zomato-logo {
+    height: 150px;
+    width: 500px;
+
+
+    margin: 200px auto 0;
+    color: #fff;
+    padding: 20px;
+    justify-content: center;
+}
+
+.zomato-logo img {
+
+
+    margin-left: 100px;
+    width: 60%;
+    height: 35%;
+}
+
+.zomato-logo h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.main-body {
+    width: 1100px;
+    height: auto;
+    /* background-color: aquamarine; */
+    margin: 10px auto;
+}
+
+.title-description {
+    margin-bottom: 40px;
+}
+
+.title-description h1 {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 36px;
+    color: #696969;
+}
+
+.title-description p {
+    text-align: center;
+    padding: 0 70px;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(105, 105, 105);
+}
+
+.locations {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.buttons {
+    display: flex;
+    margin-right: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    height: 100px;
+    width: 340px;
+}
+
+
+.buttons a {
+    width: 100%;
+    border: 1px solid rgb(100, 100, 100);
+    display: flex;
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+.buttons a h4 {
+    font-weight: 100;
+    font-size: 18px;
+
+}
+
+.buttons a img {
+    padding-left: 20px;
+    /* padding-top: 5px; */
+    color: rgb(105, 105, 105);
+    opacity: 0.3;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(240, 240, 240);
+    padding: 10px 0;
+}
+
+.main-footer {
+    width: 1100px;
+    margin: 10px auto;
+    height: auto;
+}
+
+
+
+.upper-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.reg-lan {
+    display: flex;
+}
+
+.region,
+.language {
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 6px;
+    height: 40px;
+    width: 120px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 5px;
+}
+
+.region {
+    margin-right: 20px;
+}
+
+.lower-footer {
+    height: auto;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    border-bottom: 1px solid darkgrey;
+}
+
+.left-part,
+.right-part {
+    display: flex;
+}
+
+.about-zomato,
+.learn-more {
+    margin-right: 15px;
+}
+
+
+.left-part h4,
+.right-part h4 {
+    padding-bottom: 10px;
+    font-weight: 100;
+}
+
+.about-zomato li,
+.about-zomato a,
+.zomaverse li,
+.zomaverse a,
+.learn-more li,
+.learn-more a {
+    line-height: 2;
+    text-transform: uppercase;
+    list-style-type: none;
+    font-size: 14px;
+    color: #696969;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons li {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.social-icons:last-child {
+    margin-right: 0px;
+}
+
+.social-icons img {
+    height: 20px;
+    width: 20px;
+}
+
+.app-store img,
+.play-store img {
+    height: 40px;
+    width: 137px;
+    margin-top: 10px;
+}
+
+.sub-footer {
+    width: 1100px;
+    margin: 20px auto;
+    height: auto;
+}
+
+.sub-footer p {
+    font-size: 12px;
+    font-weight: 100;
+    color: darkgray;
+}
